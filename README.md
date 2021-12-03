@@ -8,7 +8,7 @@ Mit der "ROKS rocks!"-Blogserie möchte ich sowohl einen Überblick über den Se
 2. Episode - [Hochverfügbarkeit](./S1E2_ha.md)
 3. Episode - Netzwerk
 4. Episode - Storage
-5. Episode - Betriebsthemen
+5. Episode - Entwicklungs- und Betriebsthemen (DevOps)
 6. Episode - Zusammenfassung (und Spezialthemen)
 
 Wichtige Links
