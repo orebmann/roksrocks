@@ -18,5 +18,6 @@ ROKS ist ein ge-managedter Red Hat OpenShift Service auf der IBM Cloud, d.h.
 - SRE Unterstützung (Site Reliability Engineering, d.h. viele Probleme werden schon adressiert, bevor der Kunde sie feststellt)
 - Hochverfügbarkeit, Security/Härtung und Compliance by default (d.h. diese wichtigen Aspekte sind bereits adressiert)
 - Integration mit weiteren Plattform-Services (Logging, Monitoring, Verschlüsselung, Secrets Management, Identity and Access Management, Storage, Netzwerk, Container Registry mit Schwachstellenchecks)
+- Vereinfachte Installation weiterer IBM Software-Pakete (z.B. IBM Cloud Paks können auf Knopfdruck aus dem IBM Cloud Portal auf ROKS installiert werden)
 
 Mittels IBM Cloud Satellite kann ROKS aber auch anderswo sehr einfach als gemanagedter Service bereitgestellt werden (z.B. im eigenen Rechenzentrum, bei anderen Cloud-Providern oder auch an sog. Edge-Lokationen (z.B. einer Aussenstelle, einer Fabrikhalle, etc.). Als Grundlage werden lediglich Linux Server und eine ausgehende Internet-Verbindung benötigt.
