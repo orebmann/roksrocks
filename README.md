@@ -4,8 +4,8 @@ ROKS (Red Hat OpenShift Kubernetes Service) ist ein ge-managedtes Red Hat OpenSh
 
 Mit der "ROKS rocks!"-Blogserie möchte ich sowohl einen Überblick über den Service geben als auch insbesondere einen etwas tieferen Einblick in typische Architekturfragen- und herausforderungen geben.
 
-1. Episode - Überblick
-2. Episode - Hochverfügbarkeit
+1. Episode - [Überblick](./S1E2_overview.md)
+2. Episode - [Hochverfügbarkeit](./S1E2_HighAvailability.md)
 3. Episode - Netzwerk
 4. Episode - Storage
 5. Episode - Betriebsthemen
