@@ -6,7 +6,7 @@ ROKS ist ein ge-managedter OpenShift-Service von IBM.
 - OpenShift ist Kubernetes (genaugenommen eine Distribution von Kubernetes)
 - OpenShift ist Open-Source (IBM und Red Hat sind neben Google Hauptcontributors im Kubernetes Kontext)
 - OpenShift ist mehr als Kubernetes. OpenShift ist eine Anwendungsplattform (d.h. wichtige Werkzeuge für Entwickler und den Betrieb/Administratoren sind vor-integriert und weitere Werkzeuge einfach integrierbar, es wird auf Sicherheits- und Unternehmensbelange besonderer Wert gelegt, Updates und Migrationspfade werden getestet und bereitgestellt, etc.)
-- OpenShift gibt es mit Support (für Unternehmen oft sehr wichtig, sog. Subscriptions im Red Hat Jargon)
+- OpenShift gibt es mit Support, d.h. man ist bei Problemem nicht auf sich gestellt (für Unternehmen oft sehr wichtig, sog. Subscriptions im Red Hat Jargon)
 - OpenShift gibt es überall (im eigenen Rechenzentrum, bei Cloud-Anbietern, etc.) selbst-gemanagedt oder auch voll-gemanagedt (z.B. ROKS auf IBM Cloud Satellite), d.h. Investitionsschutz und Portabilität werden grossgeschrieben
 
 Was genau ist jetzt ROKS?
