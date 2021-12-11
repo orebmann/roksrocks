@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Einleitung - ROKS rocks!"
 tags:
   - ROKS
