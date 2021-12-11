@@ -41,8 +41,8 @@ Idealerweise sollte ein Workerpool über alle drei Zonen einer MZR aufgespannt w
 
 Weitere Hochverfügbarkeitsaspekte bzgl. Storage und Netzwerk (insbesondere auch Loadbalancing/Routing) schauen wir uns im Detail in den entsprechenden dedidzierten Blogeinträgen zu diesen Themen an.
 
-![ROKS Hochverügbarkeit](./images/roksha.jpg)
+![ROKS Hochverfügbarkeit](./images/roksha.jpg)
 
 **Zusammenfassung:** ROKS wird by default hochverfügbar bereitgestellt, d.h. die Master-Knoten werden in einer Multi-Zone-Region (z.B. Frankfurt) IMMER über drei Rechenzentren (sog. Availability Zones/AZ) verteilt. Bzgl. der Verteilung und Hochverfügbarkeit der Worker-Knoten kann der Kunde entscheiden wie viele Worker in welchen Zonen bereitgestellt werden, es wird empfohlen (und ist auch der default) möglichst alle drei Zonen einer MZR zu nutzen und eine symmetrische/gleiche Anzahl von Worker-Knoten pro AZ einzusetzen.
 
-
+[Inhaltsverzeichnis](./README.md) 
