@@ -41,10 +41,26 @@ Eigene externe Fileserver können zonal oder multi-zonal auf VMs (sog. Virtual S
 
 Ein weiterer Vorteil von software-defininiertem Speicher, insbesondere in der OpenShift-eigenen Variante ODF, liegt in der Portabilität. Ein Nachteil ist, dass meist zusätzliche Worker zur Bereitstellung des SDS-Layers benötigt werden und zusätzliche Subscription/Lizenz-Kosten anfallen (im Vergleich zu "normalem" Block-, File- oder S3-Storage).
 
-![ROKS Hochverfügbarkeit](./images/roksha.jpg)
+![ROKS Storageoptionen](./images/roksstorage.jpg)
 
 Wichtige Links zum Thema:
-
+- File and Block
+  - [ROKS - IBM Cloud storage utilities](https://cloud.ibm.com/docs/openshift?topic=openshift-utilities)
+  - Classic
+    - [ROKS - Storing data on classic IBM Cloud File Storage](https://cloud.ibm.com/docs/openshift?topic=openshift-file_storage)
+    - [ROKS - Storing data on classic IBM Cloud Block Storage](https://cloud.ibm.com/docs/openshift?topic=openshift-block_storage)
+  - VPC
+    - [ROKS - Storing data on Block Storage for VPC](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block)
+- Cloud Object Storage
+  - [ROKS - Storing data on IBM Cloud Object Storage](https://cloud.ibm.com/docs/openshift?topic=openshift-object_storage)
+- SDS
+  - ODF
+    - [ROKS - Deploying OpenShift Data Foundation on Classic clusters](https://cloud.ibm.com/docs/openshift?topic=openshift-deploy-odf-classic) 
+    - [ROKS - Deploying OpenShift Data Foundation on VPC clusters](https://cloud.ibm.com/docs/openshift?topic=openshift-deploy-odf-vpc) 
+    - [ROKS - Deploying an app on OpenShift Data Foundation](https://cloud.ibm.com/docs/openshift?topic=openshift-odf-deploy-app)
+  - Portworx
+    - [Portworx on IBM Cloud](https://docs.portworx.com/portworx-install-with-kubernetes/cloud/ibm/)
+    - [ROKS - Storing data on software-defined storage (SDS) with Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx)
 
 **Zusammenfassung:** Anwendungen sollten, wo möglich die hochverfügbaren PaaS Services aus der Cloud verwenden (z.B. Datenbanken, Logging). Persistenter Speicher für zustandsbehaftete Workload kann in ROKS auf verschiedenste Arten und Weisen zonal oder multi-zonal bereitgestellt werden. Sollte Hochverfügbarkeit benötigt werden sollte ein zonenübergreifender Storage verwendet werden. Für FTP-style (put, get) workload kann hier Cloud Object Storage (S3) verwendet werden, für Workload die häufige Dateiänderungen erfodert sollte ein software-definierter Storage zum Einsatz kommen (z.B. mit ODF)
 
