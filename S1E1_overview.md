@@ -1,6 +1,5 @@
 ---
 title: "Überblick - ROKS rocks!"
-permalink: /S1E1_overview.md
 tags:
   - ROKS
   - Red Hat
