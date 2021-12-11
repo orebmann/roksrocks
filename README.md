@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Einleitung - ROKS rocks!"
-permalink: /
+permalink: /intro
 tags:
   - ROKS
   - Red Hat
