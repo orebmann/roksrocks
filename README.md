@@ -1,6 +1,16 @@
+---
 layout: page
 title: "Einleitung - ROKS rocks!"
 permalink: /
+tags:
+  - ROKS
+  - Red Hat
+  - OpenShift
+  - IBM
+  - IBM Cloud
+  - Architektur
+  - Architecture
+---
 
 ROKS (Red Hat OpenShift Kubernetes Service) ist ein ge-managedtes Red Hat OpenShift, das auf IBM Cloud und über den IBM Cloud Service "IBM Cloud Satellite" überall (auch auf anderen Clouds oder im eigenen Rechenzentrum), als Service ausgerollt werden kann.
 
