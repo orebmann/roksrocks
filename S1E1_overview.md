@@ -1,6 +1,25 @@
-# Überblick
+---
+title: "Überblick - ROKS rocks!"
+permalink: /S1E1_overview.md
+tags:
+  - ROKS
+  - Red Hat
+  - OpenShift
+  - ARO
+  - ROSA
+  - AWS
+  - Azure
+  - Microsoft
+  - IBM
+  - IBM Cloud
+  - Architektur
+  - Architecture
+  - Satellite
+  - Cloud Satellite
+  - IBM Cloud Satellite
+---
 
-ROKS ist ein ge-managedter OpenShift-Service von IBM.
+# Überblick
 
 Über die Vorteile von OpenShift gegenüber anderen Kuebernetes-Distributionen wurden schon diverse Blogs geschrieben und Diskussionen geführt (z.B. [Red Hat OpenShift und Kubernetes im Vergleich](https://www.redhat.com/de/topics/containers/red-hat-openshift-kubernetes)). Deshalb hier wirklich nur ein kurzer Abriss über die Vorteile von OpenShift aus meiner Sicht.
 - OpenShift ist Kubernetes (genaugenommen eine Distribution von Kubernetes)
@@ -21,3 +40,7 @@ ROKS ist ein ge-managedter Red Hat OpenShift Service auf der IBM Cloud, d.h.
 - Vereinfachte Installation weiterer IBM Software-Pakete (z.B. IBM Cloud Paks können auf Knopfdruck aus dem IBM Cloud Portal auf ROKS installiert werden)
 
 Mittels IBM Cloud Satellite kann ROKS aber auch anderswo sehr einfach als gemanagedter Service bereitgestellt werden (z.B. im eigenen Rechenzentrum, bei anderen Cloud-Providern oder auch an sog. Edge-Lokationen (z.B. einer Aussenstelle, einer Fabrikhalle, etc.). Als Grundlage werden lediglich Linux Server und eine ausgehende Internet-Verbindung benötigt.
+
+Zusammenfassung: ROKS ist ein ge-managedter OpenShift-Service von IBM. ROKS kann in der IBM Cloud als Service bezogen werden. ROKS kann über den verteilten Cloud-Dienst IBM Cloud Satellite aber auch in anderen Clouds, dem eigenen Rechenzentrum oder sog. Edges bereitgestellt werden (alles was dazu benötigt wird sind Linux Hosts und eine ausgehende Internet-Verbindung).
+
+[<Inhaltsverzeichnis>](./) [<Hochverfügbarkeit>](./S1E2_availability.md)
