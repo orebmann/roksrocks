@@ -42,6 +42,8 @@ ROKS ist ein ge-managedter Red Hat OpenShift Service auf der IBM Cloud, d.h.
 1. ROKS hat eine bessere native Integration mit anderen Cloud-Services (z.B. Schlüsselmanagement, Logging, Secrets Management, etc.), d.h. ROKS ist voll-integriert in die IBM Cloud, während die anderen Offerings eher teil-integriert in ihren jeweiligen Clouds wirken
 2. ROKS gibt es nicht nur in der IBM Cloud Infrastruktur. Mittels IBM Cloud Satellite als verteilter Cloud-Dienst kann ROKS auch anderswo sehr einfach als ge-managedter Service bereitgestellt werden, z.B. im eigenen Rechenzentrum, bei anderen Cloud-Providern oder auch an sog. Edge-Lokationen (z.B. einer Aussenstelle, einer Fabrikhalle, etc.). Als Grundlage werden lediglich Linux Server und eine ausgehende Internet-Verbindung benötigt.
 
+![Was ist ROKS?](./images/whatisroks.jpg)
+
 **Zusammenfassung:** ROKS ist ein ge-managedter OpenShift-Service von IBM. ROKS kann in der IBM Cloud als Service bezogen werden. ROKS kann über den verteilten Cloud-Dienst IBM Cloud Satellite aber auch in anderen Clouds, dem eigenen Rechenzentrum oder sog. Edges bereitgestellt werden (alles was dazu benötigt wird sind Linux Hosts und eine ausgehende Internet-Verbindung).
 
 [Inhaltsverzeichnis](./README.md) 
