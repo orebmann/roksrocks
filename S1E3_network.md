@@ -25,6 +25,7 @@ Generell kann ROKS mit privatem oder öffentlichem (public) Zugang, oder einer M
 Dabei ist bzgl. Zugang zwischen zwei Ebenen zu unterscheiden:
 - API Zugriff (sog. Public oder Private Endpoints/Endpunkte)
 - Applikationszugriff (wird über Loadbalancer bereitgestellt)
+
 Prinzipiell bedeutet privater Zugriff, dass ein Zugriff aus dem Internet nicht möglich ist, d.h. um auf das Cluster zugreifen zu können, muss man entweder im 
 gleichen Netzwerk sein (z.B. durch Aufsetzen eines Jump-Servers oder Bastion-Nodes) oder über eine private Zugangstechnologie (z.B. VPN oder Direktverbindung/Direct Link) verfügen.<br/>
 Dies erhöht den Administrationsaufwand und die Sicherheit gleichermassen. Für die allermeisten Cluster (Spielcluster und PoCs ausgenommen) ist es m.E. deshalb sinnvoll
@@ -48,11 +49,11 @@ Als Loadbalancer für den Applikationszugriff stehen Application Load Balancer (
   - Die IP Adresse eines VPC NLB ist statisch/fix (aber innerhalb der Zone trotzdem hochverfügbar)
   - Der NLB kann Requests auf Layer 4 (TCP-Protokoll) verteilen und hat den Vorteil, dass er DSR (Direct Server Return) untersützt, d.h. Responses müssen nicht wieder durch den Loadbalancer hindurch.
 
-Hinter dem VPC Loadbalancer (NLB oder ALB) hängt der entsprechende Ingress-Controll (Default-Router) in ROKS. D.h. in den sogenannten Backend-Pools des jeweiligen Loadbalancers sind die ROKS Worker aufgelistet und standardmässig der HTTP und HTTPS-Port aufgeführt (als Nodeport) auf dem der Default-Router läuft.
+Hinter dem VPC Loadbalancer (NLB oder ALB) hängt der entsprechende Ingress-Controll (Default-Router) in ROKS. D.h. in den sogenannten Backend-Pools des jeweiligen Loadbalancers sind die ROKS Worker aufgelistet und standardmässig der HTTP und HTTPS-Port aufgeführt (als Nodeport) unter dem der Default-Router (Service) läuft.
 
 
 
 
-**Zusammenfassung:** Anwendungen sollten, wo möglich die hochverfügbaren PaaS Services aus der Cloud verwenden (z.B. Datenbanken, Logging). Persistenter Speicher für zustandsbehaftete Workload kann in ROKS auf verschiedenste Arten und Weisen zonal oder multi-zonal bereitgestellt werden. Sollte Hochverfügbarkeit benötigt werden sollte ein zonenübergreifender Storage verwendet werden. Für FTP-style (put, get) workload kann hier Cloud Object Storage (S3) verwendet werden, für Workload die häufige Dateiänderungen erfodert sollte ein software-definierter Storage zum Einsatz kommen (z.B. mit ODF)
+**Zusammenfassung:** Mit ROKS kann der Administrationszugang (sog. Endpoints) und Applikationszugang (sog. Loadbalancer) auf privaten Netzwerk-Zugang beschränkt werden. Dies erhöht den Administrationsaufwand zwar etwas (da eine private Zugangslösung, z.B. VPN/Directverbindung, Bastion Host oder Sprungserver benötigt wird) erhöht aber auch die Sicherheit deutlich. Bei Bedarf können dann für die Applikationsteile, die ins Internet exponiert werden müssen, öffentliche/public Loadbalancer hinzukonfiguriert werden.
 
 [Inhaltsverzeichnis](./README.md) 
