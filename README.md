@@ -20,8 +20,6 @@ Für Staffel 1 ;o) habe ich mir dazu folgende Themen herausgepickt:
 3. Episode - [Netzwerk](./S1E3_storage.md)
 4. Episode - [Storage](./S1E4_storage.md)
 
-Fortsetzung folgt...
-
 Wichtige Links
 - [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started)
 - [Getting started with IBM Cloud Satellite](https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started)
