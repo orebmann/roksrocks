@@ -17,7 +17,7 @@ Mit der "ROKS rocks!"-Blogserie möchte ich sowohl einen Überblick über den Se
 Für Staffel 1 ;o) habe ich mir dazu folgende Themen herausgepickt:
 1. Episode - [Überblick](./S1E1_overview.md)
 2. Episode - [Hochverfügbarkeit](./S1E2_ha.md)
-3. Episode - [Netzwerk](./S1E3_storage.md)
+3. Episode - [Netzwerk](./S1E3_network.md)
 4. Episode - [Storage](./S1E4_storage.md)
 
 Wichtige Links
