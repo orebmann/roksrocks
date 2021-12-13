@@ -1,1 +1,0 @@
-# Entwicklungs- und Betriebsthemen (DevOps)
