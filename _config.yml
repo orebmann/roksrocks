@@ -1,4 +1,3 @@
 theme: jekyll-theme-architect
 title: ROKS rocks!
 description: Architektureinblicke in Red Hat OpenShift auf der IBM Cloud (und anderswo)!
-baseurl: /README.html
