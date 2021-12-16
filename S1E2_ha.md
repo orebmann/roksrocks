@@ -1,19 +1,7 @@
 ---
 title: "Hochverfügbarkeit - ROKS rocks!"
-tags:
-  - ROKS
-  - Red Hat
-  - OpenShift
-  - IBM
-  - IBM Cloud
-  - Architektur
-  - Architecture
-  - Satellite
-  - Cloud Satellite
-  - High Availability
-  - Availabilty Zone
-  - Hochverfügbarkeit
-  - IBM Cloud Satellite
+description: "Hochverfügbarkeitseinblicke in Red Hat OpenShift Kubernetes Service (ROKS)"
+tags: [ROKS,Red Hat,OpenShift,IBM,IBM Cloud,Architektur,Architecture,Satellite,Cloud Satellite,High Availability,Availability Zone,Verfügbarkeit,Verfügbarkeitszone,Hochverfügbarkeit,IBM Cloud Satellite]
 ---
 
 # Hochverfügbarkeit
