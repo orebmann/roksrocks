@@ -1,5 +1,6 @@
 ---
 title: "Einleitung - ROKS rocks!"
+permalink: /
 tags:
   - ROKS
   - Red Hat
