@@ -13,7 +13,7 @@ Ich wünsche euch viel Freude und ein paar Aha!-Momente beim Lesen.
 
 <hr/>
 
-Wichtige Links
+Wichtige Links zum Thema:
 - [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started)
 - [Getting started with IBM Cloud Satellite](https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started)
 - [IBM Architecture Center](https://www.ibm.com/cloud/architecture)
