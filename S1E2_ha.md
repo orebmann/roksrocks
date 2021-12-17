@@ -37,5 +37,5 @@ Weitere Hochverfügbarkeitsaspekte bzgl. Storage und Netzwerk (insbesondere auch
 
 <hr/>
 
-Wichtige Links
+Wichtige Links zum Thema:
 -
