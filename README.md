@@ -11,6 +11,7 @@ In "Staffel 1" will ich folgende 4 Themen behandeln:
 
 Viel Freude und vielleicht auch ein paar Aha!-Augenblicke beim Lesen.
 
+<hr/>
 Wichtige Links
 - [Getting started with Red Hat OpenShift on IBM Cloud](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started)
 - [Getting started with IBM Cloud Satellite](https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started)
