@@ -29,7 +29,7 @@ Ein weiterer Vorteil von software-defininiertem Speicher, insbesondere in der Op
 
 <hr/>
 
-Wichtige Links
+Wichtige Links zum Thema:
 - File and Block
   - [ROKS - IBM Cloud storage utilities](https://cloud.ibm.com/docs/openshift?topic=openshift-utilities)
   - Classic
@@ -47,5 +47,5 @@ Wichtige Links
   - Portworx
     - [Portworx on IBM Cloud](https://docs.portworx.com/portworx-install-with-kubernetes/cloud/ibm/)
     - [ROKS - Storing data on software-defined storage (SDS) with Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx)
-  
-  
+ 
+ 
