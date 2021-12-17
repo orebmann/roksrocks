@@ -1,22 +1,6 @@
 ---
 title: "Netzwerk - ROKS rocks!"
-tags:
-  - ROKS
-  - Red Hat
-  - OpenShift
-  - IBM
-  - IBM Cloud
-  - Architektur
-  - Architecture
-  - Satellite
-  - Cloud Satellite
-  - Netzwerk
-  - Network
-  - Loadbalancer
-  - Lastverteilung
-  - Availabilty Zone
-  - Hochverfügbarkeit
-  - IBM Cloud Satellite
+tags: [ROKS,Red Hat,OpenShift,IBM,IBM Cloud,Architektur,Architecture,Satellite,Cloud Satellite,Netzwerk,Network,Loadbalancer,Lastverteilung,Availabilty Zone,Hochverfügbarkeit,IBM Cloud Satellite]
 ---
 
 # Netzwerk
@@ -56,4 +40,9 @@ Hinter dem VPC Loadbalancer (NLB oder ALB) hängt der entsprechende Ingress-Cont
 
 **Zusammenfassung:** Mit ROKS kann der Administrationszugang (sog. Endpoints) und Applikationszugang (sog. Loadbalancer) auf privaten Netzwerk-Zugang beschränkt werden. Dies erhöht den Administrationsaufwand zwar etwas (da eine private Zugangslösung, z.B. VPN/Directverbindung, Bastion Host oder Sprungserver benötigt wird) erhöht aber auch die Sicherheit deutlich. Bei Bedarf können dann für die Applikationsteile, die ins Internet exponiert werden müssen, öffentliche/public Loadbalancer hinzukonfiguriert werden.
 
-[Inhaltsverzeichnis](./README.md) 
+[Inhaltsverzeichnis](./README.md)
+
+<hr/>
+
+Wichtige Links
+- 
