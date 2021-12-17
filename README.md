@@ -9,7 +9,7 @@ In "Staffel 1" will ich folgende 4 Themen behandeln:
 3. Episode - [Netzwerk](./S1E3_network.md)
 4. Episode - [Storage](./S1E4_storage.md)
 
-Viel Freude und vielleicht auch ein paar Aha!-Augenblicke beim Lesen.
+Ich wünsche euch viel Freude und ein paar Aha!-Momente beim Lesen.
 
 <hr/>
 
