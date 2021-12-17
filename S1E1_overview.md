@@ -35,5 +35,5 @@ ROKS ist ein ge-managedter Red Hat OpenShift Service auf der IBM Cloud, d.h.
 
 <hr/>
 
-Wichtige Links
+Wichtige Links zum Thema:
 - 
