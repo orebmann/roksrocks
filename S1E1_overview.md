@@ -1,21 +1,6 @@
 ---
 title: "Überblick - ROKS rocks!"
-tags:
-  - ROKS
-  - Red Hat
-  - OpenShift
-  - ARO
-  - ROSA
-  - AWS
-  - Azure
-  - Microsoft
-  - IBM
-  - IBM Cloud
-  - Architektur
-  - Architecture
-  - Satellite
-  - Cloud Satellite
-  - IBM Cloud Satellite
+tags: [ROKS,Red Hat,OpenShift,ARO,ROSA,AWS,Azure,Microsoft,IBM,IBM Cloud,Architektur,Architecture,Satellite,Cloud Satellite,IBM Cloud Satellite]
 ---
 
 # Überblick
@@ -47,3 +32,8 @@ ROKS ist ein ge-managedter Red Hat OpenShift Service auf der IBM Cloud, d.h.
 **Zusammenfassung:** ROKS ist ein ge-managedter OpenShift-Service von IBM. ROKS kann in der IBM Cloud als Service bezogen werden. ROKS kann über den verteilten Cloud-Dienst IBM Cloud Satellite aber auch in anderen Clouds, dem eigenen Rechenzentrum oder sog. Edges bereitgestellt werden (alles was dazu benötigt wird sind Linux Hosts und eine ausgehende Internet-Verbindung).
 
 [Inhaltsverzeichnis](./README.md) 
+
+<hr/>
+
+Wichtige Links
+- 
