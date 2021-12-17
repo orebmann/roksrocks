@@ -1,26 +1,6 @@
 ---
 title: "Hochverfügbarkeit - ROKS rocks!"
-tags:
-  - ROKS
-  - Red Hat
-  - OpenShift
-  - IBM
-  - IBM Cloud
-  - Architektur
-  - Architecture
-  - Satellite
-  - Cloud Satellite
-  - Storage
-  - SDS
-  - Cloud Object Storage
-  - S3FS
-  - S3
-  - Block Storage
-  - File Storage
-  - Software-defined Storage
-  - Availabilty Zone
-  - Hochverfügbarkeit
-  - IBM Cloud Satellite
+tags: [ROKS,Red Hat,OpenShift,IBM,IBM Cloud,Architektur,Architecture,Satellite,Cloud Satellite,Storage,SDS,Cloud Object Storage,S3FS,S3,Block Storage,File Storage,Software-defined Storage,Availabilty Zone,Hochverfügbarkeit,IBM Cloud Satellite]
 ---
 
 # Storage
@@ -43,7 +23,13 @@ Ein weiterer Vorteil von software-defininiertem Speicher, insbesondere in der Op
 
 ![ROKS Storageoptionen](./images/roksstorage.jpg)
 
-Wichtige Links zum Thema:
+**Zusammenfassung:** Anwendungen sollten, wo möglich die hochverfügbaren PaaS Services aus der Cloud verwenden (z.B. Datenbanken, Logging). Persistenter Speicher für zustandsbehaftete Workload kann in ROKS auf verschiedenste Arten und Weisen zonal oder multi-zonal bereitgestellt werden. Sollte Hochverfügbarkeit benötigt werden sollte ein zonenübergreifender Storage verwendet werden. Für FTP-style (put, get) workload kann hier Cloud Object Storage (S3) verwendet werden, für Workload die häufige Dateiänderungen erfodert sollte ein software-definierter Storage zum Einsatz kommen (z.B. mit ODF)
+
+[Inhaltsverzeichnis](./README.md) 
+
+<hr/>
+
+Wichtige Links
 - File and Block
   - [ROKS - IBM Cloud storage utilities](https://cloud.ibm.com/docs/openshift?topic=openshift-utilities)
   - Classic
@@ -61,7 +47,5 @@ Wichtige Links zum Thema:
   - Portworx
     - [Portworx on IBM Cloud](https://docs.portworx.com/portworx-install-with-kubernetes/cloud/ibm/)
     - [ROKS - Storing data on software-defined storage (SDS) with Portworx](https://cloud.ibm.com/docs/openshift?topic=openshift-portworx)
-
-**Zusammenfassung:** Anwendungen sollten, wo möglich die hochverfügbaren PaaS Services aus der Cloud verwenden (z.B. Datenbanken, Logging). Persistenter Speicher für zustandsbehaftete Workload kann in ROKS auf verschiedenste Arten und Weisen zonal oder multi-zonal bereitgestellt werden. Sollte Hochverfügbarkeit benötigt werden sollte ein zonenübergreifender Storage verwendet werden. Für FTP-style (put, get) workload kann hier Cloud Object Storage (S3) verwendet werden, für Workload die häufige Dateiänderungen erfodert sollte ein software-definierter Storage zum Einsatz kommen (z.B. mit ODF)
-
-[Inhaltsverzeichnis](./README.md) 
+  
+  
