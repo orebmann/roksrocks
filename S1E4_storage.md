@@ -39,7 +39,7 @@ Wichtige Links zum Thema:
     - [ROKS - Storing data on Block Storage for VPC](https://cloud.ibm.com/docs/openshift?topic=openshift-vpc-block)
 - Cloud Object Storage
   - [ROKS - Storing data on IBM Cloud Object Storage](https://cloud.ibm.com/docs/openshift?topic=openshift-object_storage)
-- SDS
+- Software-Defined-Storage (SDS)
   - ODF
     - [ROKS - Deploying OpenShift Data Foundation on Classic clusters](https://cloud.ibm.com/docs/openshift?topic=openshift-deploy-odf-classic) 
     - [ROKS - Deploying OpenShift Data Foundation on VPC clusters](https://cloud.ibm.com/docs/openshift?topic=openshift-deploy-odf-vpc) 
