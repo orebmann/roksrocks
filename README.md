@@ -6,8 +6,9 @@ In "Staffel 1" will ich folgende 4 Themen behandeln:
 
 1. Episode - [Überblick](./S1E1_overview.md)
 2. Episode - [Hochverfügbarkeit](./S1E2_ha.md)
-3. Episode - [Netzwerk](./S1E3_network.md)
-4. Episode - [Storage](./S1E4_storage.md)
+3. Episode - [Infrastrukturoptionen](./S1E2_infrastructure.md)
+4. Episode - [Netzwerk](./S1E3_network.md)
+5. Episode - [Storage](./S1E4_storage.md)
 
 Ich wünsche euch viel Freude und ein paar Aha!-Momente beim Lesen.
 
