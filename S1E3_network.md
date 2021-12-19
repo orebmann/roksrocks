@@ -47,5 +47,5 @@ Hinter dem VPC Loadbalancer (NLB oder ALB) hängt der entsprechende Ingress-Cont
 <hr/>
 
 Wichtige Links zum Thema:
-- [Red Hat OpenShift on IBM Cloud Architecture](https://cloud.ibm.com/docs/openshift?topic=openshift-service-arch)
+- [Red Hat OpenShift on IBM Cloud Architecture](https://cloud.ibm.com/docs/openshift?topic=openshift-service-arch)<br/>
 Provides a detailed view of the connectivity in different setups (Classic and VPC, Public and Private)
