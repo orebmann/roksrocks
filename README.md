@@ -5,8 +5,8 @@ Mit der "ROKS rocks!"-Blogserie möchte ich nach einem ersten Überblick über d
 In "Staffel 1" will ich folgende 4 Themen behandeln:
 
 1. Episode - [Überblick](./S1E1_overview.md)
-2. Episode - [Hochverfügbarkeit](./S1E2_ha.md)
-3. Episode - [Infrastrukturoptionen](./S1E2_infrastructure.md)
+2. Episode - [Infrastrukturoptionen](./S1E2_infrastructure.md)
+3. Episode - [Hochverfügbarkeit](./S1E2_ha.md)
 4. Episode - [Netzwerk](./S1E3_network.md)
 5. Episode - [Storage](./S1E4_storage.md)
 
