@@ -5,7 +5,7 @@ tags: [ROKS,Red Hat,OpenShift,ARO,ROSA,AWS,Azure,Microsoft,IBM,IBM Cloud,Archite
 
 # Infrastrukturoptionen
 
-Red Hat OpenShift Kubernetes Service kann in verschiedenen Infrastrukturen ausgerollt werden.
+Der Red Hat OpenShift Kubernetes Service (ROKS) kann in verschiedenen Infrastrukturen ausgerollt werden.
 - IBM Cloud
   - Virtual Private Cloud (bevorzugt!!!)
   - Classic
