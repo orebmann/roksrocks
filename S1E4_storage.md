@@ -1,6 +1,6 @@
 ---
-title: "Hochverfügbarkeit - ROKS rocks!"
-tags: [ROKS,Red Hat,OpenShift,IBM,IBM Cloud,Architektur,Architecture,Satellite,Cloud Satellite,Storage,SDS,Cloud Object Storage,S3FS,S3,Block Storage,File Storage,Software-defined Storage,Availabilty Zone,Hochverfügbarkeit,IBM Cloud Satellite]
+title: "Storage - ROKS rocks!"
+tags: [ROKS,Red Hat,OpenShift,IBM,IBM Cloud,Architektur,Architecture,Satellite,Cloud Satellite,Storage,SDS,Cloud Object Storage,S3FS,S3,Block Storage,File Storage,Software-defined Storage,Persistenz,Speicher,Availabilty Zone,Hochverfügbarkeit,IBM Cloud Satellite]
 ---
 
 # Storage
@@ -29,8 +29,7 @@ Ein weiterer Vorteil von software-defininiertem Speicher, insbesondere in der Op
 
 <hr/>
 
-Wichtige Links zum Thema
-
+Wichtige Links zum Thema:
 - File and Block
   - [ROKS - IBM Cloud storage utilities](https://cloud.ibm.com/docs/openshift?topic=openshift-utilities)
   - Classic
