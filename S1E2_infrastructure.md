@@ -34,7 +34,7 @@ acht.
 
 ![ROKS Infrastrukturoptionen](./images/roksinfra.jpg)
 
-**Zusammenfassung:** ROKS kann in der IBM Cloud und anderswo (über IBM Cloud Satellite) als ge-managedter Red Hat OpenShift Service bereitgestellt werden. In der IBM Cloud sollte, wann immer möglich die Virtual Private Cloud (VPC) Infrastruktur zum Ausrollen gewählt werden. 
+**Zusammenfassung:** ROKS kann in der IBM Cloud und anderswo (über IBM Cloud Satellite) als ge-managedter Red Hat OpenShift Service bereitgestellt werden. In der IBM Cloud sollte, wann immer möglich die Virtual Private Cloud (VPC) Infrastruktur zum Ausrollen gewählt werden. In bestimmten Sonderfällen ist (noch) die Nutzung der sog. Classic Infrastruktur erforderlich (z.B. Intel SGX- oder GPU-Nutzung als Workerknoten). Ausserhalb der IBM Cloud kann ROKS über IBM Cloud Satellite auf einer Linux-Infrastruktur des Kunden mit ausgehender Internet-Verbindung bereitgestellt werden (z.B. AWS, MS Azure, Google Cloud, Kunden-RZ, Colocation-RZ, Edge-Server, etc.).
 
 [Inhaltsverzeichnis](./README.md) 
 
