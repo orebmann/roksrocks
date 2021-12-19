@@ -8,7 +8,7 @@ In "Staffel 1" will ich folgende 5 Themen behandeln:
 2. Episode - [Infrastrukturoptionen](./S1E2_infrastructure.md)
 3. Episode - [Hochverfügbarkeit](./S1E3_ha.md)
 4. Episode - [Netzwerk](./S1E4_network.md)
-5. Episode - [Storage](./S1E4_storage.md)
+5. Episode - [Storage](./S1E5_storage.md)
 
 Ich wünsche euch viel Freude und ein paar Aha!-Momente beim Lesen.
 
