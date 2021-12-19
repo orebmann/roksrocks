@@ -4,6 +4,7 @@ tags: [ROKS,Red Hat,OpenShift,ARO,ROSA,AWS,Azure,Microsoft,IBM,IBM Cloud,Archite
 ---
 
 #Infrastrukturoptionen
+
 Red Hat OpenShift Kubernetes Service kann in verschiedenen Infrastrukturen ausgerollt werden.
 - IBM Cloud
   - Virtual Private Cloud (bevorzugt!!!)
@@ -32,7 +33,7 @@ Der Hauptvorteil der Nutzung von ROKS liegt dabei in folgenden Aspekten:
 
 In Satellite werden die Worker und Master in der Kundenlokation ausgebracht.
 
-![Was ist ROKS?](./images/whatisroks.jpg)
+![ROKS Infrastrukturoptionen](./images/roksinfra.jpg)
 
 **Zusammenfassung:** ROKS kann in der IBM Cloud und anderswo (über IBM Cloud Satellite) als ge-managedter Red Hat OpenShift Service bereitgestellt werden. In der IBM Cloud sollte, wann immer möglich die Virtual Private Cloud (VPC) Infrastruktur zum Ausrollen gewählt werden. 
 
