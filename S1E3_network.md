@@ -20,6 +20,8 @@ Diese Empfehlungen beziehen sich explizit auf "Zugang", d.h. eingehenden Datenve
 Ausgehende Requests ins Internet (z.B. zum Pullen eines Container-Images, sog. Outbound Traffic) können separat davon betrachtet werden und z.B. in einer Virtual Private Cloud (VPC)-Umgebung separat davon über ein Public Gateway ermöglicht werden.
 <hr/>
 
+![ROKS Public vs. Private Network Access](./images/rokspublicprivate.jpg)
+
 Als Loadbalancer für den Applikationszugriff stehen Application Load Balancer (ALB) oder Network Load Balancer (NLB) zur Verfügung. Beide können privat oder öffentlich/public bereitgestellt werden. Die folgenden Ausführungen beziehen sich auf eine Bereitstellung in einer VPC-Umgebung (für Bereitstellung in einer Classic- oder IBM Cloud Satellite-Umgebung sind die Mechanismen ähnlich, können aber im Detail etwas abweichen).
 - VPC ALB<br>
   - Default, d.h. bei der Bereitstellung eines ROKS Clusters wird auch immer ein VPC ALB provisioniert. Weitere VPC ALBs (public und/oder private) können erzeugt werden
