@@ -14,11 +14,12 @@ Red Hat OpenShift Kubernetes Service kann in verschiedenen Infrastrukturen ausge
 Das Ausrollen auf der IBM Cloud sollte, wann immer möglich, in der Virtual Private Cloud (VPC) - Umgebung erfolgen. Dies stellt eine moderne software-definierte Cloud-Infrastruktur bereit. 
 In einigen Sondersituationen kann es jedoch noch erforderlich sein auf die Classic Infrastruktur, eine bewährte eher klassisch aufgebaute Cloud-Netzwerk-Infrastruktur, auszuweichen. 
 Typische Beispiele für diese Sonderfälle sind:
-- Nutzung von GPUs im Cluster (z.B. für Machine Learning)
+- Nutzung von GPU Workern im Cluster (z.B. für Machine Learning)
 - Nutzung von SGX Workern (data-in-memory Verschlüsselung mit DataShiel) für spezielle Confidential-Workload
 - Nutzung von Bare Metal Workern (wenn striktere Isolierung erforderlich ist)
 
-Diese Sonderfälle sind zum Zeitpunkt der Erstellung dieses Blogs noch nicht vollständig in VPC abbildbar, es ist aber davon auszugehen, dass sich dieses in Zukunft ändert.
+Diese Sonderfälle sind zum Zeitpunkt der Erstellung dieses Blogs noch nicht vollständig in VPC abbildbar, es ist aber davon auszugehen, dass sich dieses in Zukunft ändert. 
+In Classic und VPC werden jeweils nur die Worker im Kundenaccount ausgebracht. Die Master werden im ROKS-Service Account dediziert pro Kunde ausgebracht.
 
 Neben diesen Möglichkeiten ROKS Cluster auf der IBM Cloud zu deployen, existiert über IBM Cloud Satellite die Möglichkeit ROKS auch anderswo auszurollen.
 Unter "anderswo" kann dabei eine beliebige Linux-Infrastruktur, mit bestimmten Mindestanforderungen, und eine ausgehende Internetverbindung verstanden werden. 
@@ -29,9 +30,11 @@ Der Hauptvorteil der Nutzung von ROKS liegt dabei in folgenden Aspekten:
 2. Ge-Managedt - Ich brauche nur sehr wenig OpenShift Betriebs-Skills, da ROKS von Profis bereitgestellt und ge-managedt wird (d.h. sicher, hochverfügbar, unterbrechungsfreie/-arme Updates, etc.).
 3. Die Daten und Applikationen bleiben in Kundenhoheit (das Cluster läüft ja im Satellite-Fall komplett auf vom Kunden bereitgestellter Infrastruktur)
 
+In Satellite werden die Worker und Master in der Kundenlokation ausgebracht.
+
 ![Was ist ROKS?](./images/whatisroks.jpg)
 
-**Zusammenfassung:** ROKS ist ein ge-managedter OpenShift-Service von IBM. ROKS kann in der IBM Cloud als Service bezogen werden. ROKS kann über den verteilten Cloud-Dienst IBM Cloud Satellite aber auch in anderen Clouds, dem eigenen Rechenzentrum oder sog. Edges bereitgestellt werden (alles was dazu benötigt wird sind Linux Hosts und eine ausgehende Internet-Verbindung).
+**Zusammenfassung:** ROKS kann in der IBM Cloud und anderswo (über IBM Cloud Satellite) als ge-managedter Red Hat OpenShift Service bereitgestellt werden. In der IBM Cloud sollte, wann immer möglich die Virtual Private Cloud (VPC) Infrastruktur zum Ausrollen gewählt werden. 
 
 [Inhaltsverzeichnis](./README.md) 
 
