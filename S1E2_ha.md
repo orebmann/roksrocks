@@ -40,4 +40,4 @@ Weitere Hochverfügbarkeitsaspekte bzgl. Storage und Netzwerk (insbesondere auch
 <hr/>
 
 Wichtige Links zum Thema:
--
+- [Planning your cluster for high availability](https://cloud.ibm.com/docs/openshift?topic=openshift-ha_clusters)
