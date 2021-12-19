@@ -29,7 +29,8 @@ Ein weiterer Vorteil von software-defininiertem Speicher, insbesondere in der Op
 
 <hr/>
 
-Wichtige Links zum Thema:
+Wichtige Links zum Thema
+
 - File and Block
   - [ROKS - IBM Cloud storage utilities](https://cloud.ibm.com/docs/openshift?topic=openshift-utilities)
   - Classic
