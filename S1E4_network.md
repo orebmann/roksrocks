@@ -37,12 +37,12 @@ Als Loadbalancer für den Applikationszugriff stehen Application Load Balancer (
 
 Hinter dem VPC Loadbalancer (NLB oder ALB) hängt der entsprechende Ingress-Controll (Default-Router) in ROKS. D.h. in den sogenannten Backend-Pools des jeweiligen Loadbalancers sind die ROKS Worker aufgelistet und standardmässig der HTTP und HTTPS-Port aufgeführt (als Nodeport) unter dem der Default-Router (Service) läuft.
 
-Am Beispiel des VPC ALB will ich nochmal exemplarisch den generellen Ablauffluss eines Requests schildern:
+Am Beispiel des VPC ALB will ich nochmal exemplarisch den Ablauf eines Requests schildern:
 1. Der Benutzer gibt eine entsprechende kundenspezifische URL in seinen Browser ein (z.B. console.cust.domain). Mit dem Hostnamen dieser URL erfolgt ein Lookup gegen einen entsprechenden Kunden-DNS-Server. In diesem Server ist ein Alias (sog. CNAME) vom kundenspezifischen Hostnamen/Domain auf die sog. Cluster-Domain hinterlegt, die bei der Anlage eines Clusters und/oder Loadbalancers generiert wird
 2. Diese Cluster-Domain ist entsprechend per Alias (CNAME) auf einen Loadbalancer gemappt. Hinter dem Loadbalancer-Eintrag verbergen sich die entsprechenden IP-Adressen des Loadbalancers (bei VPC ALBs sind dies typischerweise zwei IP-Adressen in unterschiedlichen Zonen). Diese IP-Adressen können sich ändern (wenn z.B. ein Loadbalancer in eine andere Zone verschoben werden muss), sollten deshalb also nicht direkt referenziert werden. Bei einer Änderung der IP-Adressen werden die entsprechenden DNS-Einträge automatisch angepasst.
 3. Mit einer der hinterlegten IP-Adressen erfolgt nun der Aufruf gegen den Loadbalancer. Dieser leitet den Request an seinen Backend-Pool weiter. Hier sind standardmässig alle Worker-Knoten eines Clusters hinterlegt mit den entsprechenden Node-Ports des Routers (für HTTP und HTTPS). Am Router wird dann anhand der URL die entsprechende Applikation angesprochen.
 
-
+![ROKS - Exemplarischer Ablauf eines Requests](./images/roksrequestflow.jpg)
 
 **Zusammenfassung:** Mit ROKS kann der Administrationszugang (sog. Endpoints) und Applikationszugang (sog. Loadbalancer) auf privaten Netzwerk-Zugang beschränkt werden. Dies erhöht den Administrationsaufwand zwar etwas (da eine private Zugangslösung, z.B. VPN/Directverbindung, Bastion Host oder Sprungserver benötigt wird) erhöht aber auch die Sicherheit deutlich. Bei Bedarf können dann für die Applikationsteile, die ins Internet exponiert werden müssen, öffentliche/public Loadbalancer hinzukonfiguriert werden.
 
